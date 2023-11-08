@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url("../img/Rectangle.svg"), linear-gradient(180deg, rgba(252, 121, 0, 0.69) 73.08%, rgba(252, 121, 0, 0.0897) 99.41%);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    padding: 0 15px;
+    min-height: 76vh;
+    justify-content: center;
+}
+
+.tony-page {
+    justify-content: space-between;
+    max-width: 62rem;
+    width: 100%;
+}
+
+.tony-page .text {
+    margin-bottom: 5.8rem;
+}
+
+.tony-page h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 0.625rem;
+}
+
+.tony-page p {
+    color: #fff;
+    font-size: 1.75rem;
+    white-space: nowrap;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: #ED882A;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    max-width: 25rem;
+    width: 100%;
+}
+
+.form input {
+    height: 3.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 0 0.875rem;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: #FF7A00;
+}
+
+::placeholder {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.link .login {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #FF7A00;
+    padding: 1rem 0;
+    border-radius: 0.375rem;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: 0.2 ease;
+}
+
+.link .login:hover {
+    background-color: white;
+    color: black;
+}
+
+.form a {
+    text-decoration: none;
+    color: white;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 0.0625rem;
+    background-color: #ccc;
+    margin: 1.25rem 0 1.25rem 0;
+}
+
+.button {
+    margin: 1.5rem 0 1.25rem 0;
+    text-align: center;
+}
+
+.button a {
+    padding: 0.9rem 5rem 1.25rem;
+    background-color: #FF7A00;
+    border-radius: 0.375rem;
+}
+
+.button a:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 1.875rem;
+    background-color: #ED882A;
+    font-weight: bold;
+}
