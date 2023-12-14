@@ -172,4 +172,13 @@ footer {
         padding: 1rem;
         background-color: transparent;
     }
+    #email,
+    #password {
+        background-color: transparent;
+        text-decoration: underline;
+        color: white;
+    }
+     ::placeholder {
+        color: white;
+    }
 }
