@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 2.75rem;
+    padding: 15px;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(252, 121, 0, 0.69) 73.08%, rgba(252, 121, 0, 0.0897) 99.41%), url("../img/Rectangle.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    min-height: 75vh;
+    justify-content: center;
+}
+
+.tony-page {
+    justify-content: space-between;
+    max-width: 62rem;
+    width: 90%;
+}
+
+.tony-page .text {
+    margin-bottom: 5.8rem;
+}
+
+.tony-page h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 0.625rem;
+}
+
+.tony-page p {
+    color: #fff;
+    font-size: 1.75rem;
+    white-space: nowrap;
+}
+
+.login {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    padding: 1rem 0;
+    border-radius: 0.375rem;
+    color: #FF7A00;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: 0.2 ease;
+    width: 26rem;
+}
+
+.login:hover {
+    background-color: #FF7A00;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 1.875rem;
+    background: #ED882A 0.3;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    header img {
+        width: 11.25rem;
+    }
+    .tony-page {
+        flex-direction: column;
+        text-align: center;
+    }
+    .tony-page .text {
+        margin-bottom: 1.875rem;
+    }
+    .tony-page h1 {
+        font-size: 2rem;
+        text-align: start;
+    }
+    .tony-page p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .login {
+        width: 20rem;
+    }
+}
